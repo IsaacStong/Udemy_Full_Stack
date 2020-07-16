@@ -1,0 +1,17 @@
+h1{
+  font-family: fantasy;
+  font-size: 3em;
+  text-align: center;
+}
+
+p{
+  font-family: "Arial";
+  font-size: 2em;
+}
+
+#two{
+  font-family: sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}

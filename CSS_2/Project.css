@@ -1,0 +1,28 @@
+h1{
+  font-family: fantasy;
+  text-align: center;
+}
+table{
+  background-color: white;
+  margin: auto;
+  width: 50%;
+}
+td{
+  height: 400px;
+  border: 10px solid white;
+}
+#one{
+  background-color: #581845
+}
+#two{
+  background-color: #900C3F
+}
+#three{
+  background-color: #C70039
+}
+#four{
+  background-color: #FF5733
+}
+#five{
+  background-color: #FFC300
+}
