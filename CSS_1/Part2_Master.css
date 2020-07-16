@@ -1,0 +1,35 @@
+
+body{
+  background-color: lightgray;
+}
+
+/* .'s indicate that something is a class */
+
+.firstDiv{
+  color: red;
+}
+.secondDiv{
+  color: blue;
+}
+
+/* #'s indicate that something is an id */
+#singledout{
+  color: white;
+  text-decoration:underline;
+}
+
+/* Select ul's right after h3's */
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+li a{
+  /* color: red; */
+}
+
+li a[href="https://www.google.com"]{
+  color: Orange;
+}
+
+
+/* CSS Hierarchy from most to least: id, class, general tag. */

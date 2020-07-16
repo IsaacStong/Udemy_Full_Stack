@@ -1,0 +1,25 @@
+/*Comment*/
+/* hitting control + / makes a comment automatically */
+
+body{
+  background: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/10/c0.jpg);
+}
+div{
+  background-color: white;
+  color: black;
+  border-color: yellow
+  border-width: 30px;
+  border-style: double;
+}
+h1{
+  color: purple;
+}
+li{
+  color: rgb(19, 150, 53);
+}
+p{
+  color: #0895a8;
+}
+h4{
+  color: yellow;
+}

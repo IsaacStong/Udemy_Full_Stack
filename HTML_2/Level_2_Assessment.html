@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment Test HTML 2</title>
+</head>
+<body>
+<h1>Course Sign Up Page</h1>
+<h4>Required: First Name, Last Name, Password, Email.</h4>
+
+<form action="Thanks.html" method="get">
+    <label for="fname">First Name: </label>
+    <input id="fname" type="text" required>
+    <label for="lname">Last Name: </label>
+    <input id="lname" type="text" required>
+
+    <h4></h4>
+    <label for="email">Email: </label>
+    <input id="email" type="email" required>
+    <label for="password">Password: </label>
+    <input id="password" type="password" required>
+
+    <p><b>Are you 18 or older?</b></p>
+    <label for="yesradio">Yes</label>
+    <input id="yesradio" type="radio" name="age">
+    <label for="noradio">No</label>
+    <input id="noradio" type="radio" name="age">
+
+    <p><b>Payment Type</b></p>
+    <select name="paymentMethod">
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="PayPal">PayPal</option>
+    </select>
+    <h4></h4>
+    <input type="submit" value="Sign Up">
+</form>
+</body>
+</html>
