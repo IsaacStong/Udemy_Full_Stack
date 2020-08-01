@@ -80,3 +80,22 @@ $("h2").removeClass("turnRed");
 $("h3").addClass("turnBlue");
 
 $("h3").toggleClass("turnBlue");
+
+$('h1').click(function(){
+  // this refers to clicked
+  $(this).css("color", 'red');
+})
+
+$('input').eq(0).keypress(function(event){
+  if(event.which === 13){
+    $('h3').toggleClass('turnRed');
+  }
+})
+
+$('h2').on('dblclick', function(){
+  $(this).toggleClass('turnBlue');
+})
+
+$('h3').on('mouseenter', function(){
+  $(this).toggleClass('turnRed');
+})
